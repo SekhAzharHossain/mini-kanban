@@ -16,7 +16,6 @@ A simple and responsive Kanban board built with **React + TypeScript**, supporti
 
 ## 📦 Tech Stack
 
-|---------------------|---------------------------------------------------------------------------|
 | **React + TypeScript** | Used for building a strongly typed and modular UI                       |
 | **CSS Variables**      | Enables efficient theme toggling between light and dark modes          |
 | **HTML5 Drag-and-Drop** | Lightweight and built-in; sufficient for task repositioning           |
