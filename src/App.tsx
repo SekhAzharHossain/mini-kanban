@@ -40,9 +40,9 @@ function App() {
 
   const [newTaskTitle, setNewTaskTitle] = useState<string>("");
   const [newTaskDesc, setNewTaskDesc] = useState<string>("");
-  const [activeColumn, setActiveColumn] = useState<string>("todos");
+  const activeColumn = ("todos");
   const [draggedItem, setDraggedItem] = useState<{ columnId: string; item: Task } | null>(null);
-  const [theme, setTheme] = useState<"light" | "dark">("light");
+  let theme: "light" | "dark" = "light";
 
   const titleRef = useRef<HTMLInputElement>(null);
 
